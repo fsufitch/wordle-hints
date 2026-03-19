@@ -14,7 +14,7 @@ from .words import (
 
 
 def _print_error(message: str) -> None:
-    click.secho(message, fg="orange", err=True)
+    click.secho(message, fg="red", err=True)
 
 
 @click.command()
