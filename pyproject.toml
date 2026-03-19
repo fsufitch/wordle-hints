@@ -1,6 +1,6 @@
 [project]
 name = "wordle-hints"
-version = "1.0.0"
+version = "1.0.1"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
@@ -14,6 +14,7 @@ wordle-hints = "wordle_hints.main:main"
 
 [dependency-groups]
 dev = [
+    "basedpyright>=1.38.3",
     "black>=26.3.1",
     "flake8>=7.3.0",
     "flake8-pyproject>=1.2.4",
