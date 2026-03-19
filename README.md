@@ -81,6 +81,19 @@ Use a custom word list and show all results:
 wordle-hints -w /usr/share/dict/words -m 0 __R__
 ```
 
+Full example (using NYT Wordle):
+
+![Example Wordle](example.png)
+
+This game translates into the following command and output:
+
+```text
+$ wordle-hints -x 'grutslhnm' __o__ __ope p_o_e _OPEd
+dopey
+```
+
+"Dopey" is indeed the correct answer!
+
 ## Development Setup
 
 Requires [uv](https://github.com/astral-sh/uv).
